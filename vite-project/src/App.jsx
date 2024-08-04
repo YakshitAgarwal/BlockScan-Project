@@ -1,9 +1,11 @@
 import Navbar from "./components/Navbar";
 import "./App.css";
+import Footer from"./components/Footer";
 const App = () => {
   return (
     <>
       <Navbar />
+      <Footer/>
     </>
   );
 };
